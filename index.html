@@ -1,0 +1,696 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home | Listi</title>
+    <!-- Google Font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Comfortaa:wght@300;500;700&family=Qwitcher+Grypen:wght@400;700&display=swap" rel="stylesheet">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@0,300;0,400;0,700;1,500&display=swap" rel="stylesheet">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&family=Ubuntu:ital,wght@0,300;0,400;0,700;1,500&display=swap" rel="stylesheet">
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css" integrity="sha512-1sCRPdkRXhBV2PBLUdRb4tMg1w2YPf37qatUFeS7zlBy7jJI8Lf4VHwWfZZfpXtYSLy85pkm9GaYVYMfw5BC1A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <!-- Normlize-->
+    <link rel="stylesheet" href="Css/normlize.css">
+    <!-- Css Style Sheet -->
+    <link rel="stylesheet" href="Css/style.css">
+</head>
+<body>
+    <!-- Header -->
+    <header>
+        <div class="container">
+            <div class="logo">
+                <img src="Image/logo.svg" alt="logo">
+            </div>
+            <nav>
+                <ul class="list">
+                    <li class="active"><a href="index.html">Home</a></li>
+                    <li><a href="#">About</a></li>
+                    <li><a href="#">Property</a></li>
+                    <li class="pages"><a href="#">Pages</a>
+                        <ul class="miga-menu">
+                            <li><h3 class="table">Tables</h3></li>
+                            <li><h3 class="table">Tables</h3></li>
+                            <li>Agencies</li>
+                            <li>Agents</li>
+                            <li>Agent Details</li>
+                            <li>Pricing Table</li>
+                            <li>Shop WooCommerce</li>
+                            <li>Product Details</li>
+                        </ul>
+                    </li>
+                    <li><a href="#">Blog</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+            </nav>
+            <div class="add">
+                <div class="prop">
+                    <span class="icon"><i class="fa-solid fa-circle-plus"></i></span>
+                    <a href="#">Add Property</a>
+                </div>
+                <a href="#" class="user"><i class="fa-regular fa-user"></i></a>
+                <a href="#" class="bag"><i class="fa fa-cart-plus fa-2x"></i></a>
+            </div>
+        </div>
+    </header>
+    <!-- Landing -->
+    <div class="landing">
+        <img class="shape" src="Image/home-5-main-banner.png">
+        <div class="container">
+            <div class="main-text">
+                <span>Properties</span>
+                <h3>Find The Perfect Place to <br>
+                    Live With your Family</h3>
+            </div>
+            <div class="select-type">
+                <span class="btn btn-outline-primary"><a href="#">Sell</a></span>
+                <span><a href="#">Buy</a></span>
+                <span><a href="#">Rent</a></span>
+            </div>
+            <div class="search">
+            <input type="text" placeholder="Enter Keyword here..." class="style">
+            <select name="city" id="city" class="style">
+                <option disabled selected>Select Location</option>
+                <option>Cairo</option>
+                <option>Damitta</option>
+                <option>Giza</option>
+                <option>Mansoura</option>
+                <option>Helwan</option>
+            </select>
+            <span class="slid-icon"><i class="fas fa-sliders-h"></i></span>
+            <button class=" btn-search">
+                Search
+                <i class="fa-solid fa-magnifying-glass"></i>
+            </button>
+        </div>
+        <p class="text">We’ve more than <span>54,000</span> apartments , place & plot.</p>
+        </div>
+    </div>
+    <!-- Properties 1 -->
+    <div class="properties-1" id="properties">
+        <div class="container">
+            <div class="main-header">
+                <span>Special category</span>
+                <p>Our category</p>
+                <h3>Our Featured category</h3>
+            </div>
+            <div class="box">
+                <div class="card">
+                    <div class="img-box">
+                        <div class="slide left">
+                            <i id="perev" class="fas fa-angle-left"></i>
+                        </div>
+                        <div class="slide right">
+                            <i id="next" class="fas fa-angle-right"></i>
+                        </div>
+                        <div class="fav">
+                            <div class="icon-box">
+                                <i class="fa-regular fa-heart"></i>
+                            </div>
+                            <div class="icon-box">
+                                <i class="fa-solid fa-arrow-right-arrow-left"></i>
+                            </div>
+                        </div>
+                        <div class="img-container">
+                            <img src="Image/daziy_millar3-1-400x240 (1).jpg" alt="Home">
+                        </div>
+                    </div>
+                    <div class="content">
+                        <a href="#">Studio Home</a>
+                        <h4><a href="#">Triple Story House for Rent</a></h4>
+                        <span><a href="#"><i class="fa-solid fa-location-dot"></i></a>  New Jersey</span>
+                        <div class="datiles">
+                            <span><a href="#"><i class="fa fa-bed"></i></a> Beds 3</span>
+                            <span><a href="#"><i class="fa fa-shower"></i></a> Baths 2</span>
+                            <span><a href="#"><i class="fa fa-maximize"></i></a> 1500 Sqft</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="img-box">
+                        <div class="slide left">
+                            <i id="perev" class="fas fa-angle-left"></i>
+                        </div>
+                        <div class="slide right">
+                            <i id="next" class="fas fa-angle-right"></i>
+                        </div>
+                        <div class="fav">
+                            <div class="icon-box">
+                                <i class="fa-regular fa-heart"></i>
+                            </div>
+                            <div class="icon-box">
+                                <i class="fa-solid fa-arrow-right-arrow-left"></i>
+                            </div>
+                        </div>
+                        <div class="img-container">
+                            <img src="Image/11-400x240.jpg" alt="Home">
+                        </div>
+                    </div>
+                    <div class="content">
+                        <a href="#">Apartments</a>
+                        <h4><a href="#">Brand New Shopping Mall for buy</a></h4>
+                        <span><a href="#"><i class="fa-solid fa-location-dot"></i></a>  New Jersey</span>
+                        <div class="datiles">
+                            <span><a href="#"><i class="fa fa-bed"></i></a> Beds 3</span>
+                            <span><a href="#"><i class="fa fa-shower"></i></a> Baths 3</span>
+                            <span><a href="#"><i class="fa fa-maximize"></i></a> 2000 Sqft</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="img-box">
+                        <div class="slide left">
+                            <i id="perev" class="fas fa-angle-left"></i>
+                        </div>
+                        <div class="slide right">
+                            <i id="next" class="fas fa-angle-right"></i>
+                        </div>
+                        <div class="fav">
+                            <div class="icon-box">
+                                <i class="fa-regular fa-heart"></i>
+                            </div>
+                            <div class="icon-box">
+                                <i class="fa-solid fa-arrow-right-arrow-left"></i>
+                            </div>
+                        </div>
+                        <div class="img-container">
+                            <img src="Image/daziy_millar5-1-400x240.jpg" alt="Home">
+                        </div>
+                    </div>
+                    <div class="content">
+                        <a href="#">Apartments</a>
+                        <h4><a href="#">Northwest Office Space</a></h4>
+                        <span><a href="#"><i class="fa-solid fa-location-dot"></i></a>  New Jersey</span>
+                        <div class="datiles">
+                            <span><a href="#"><i class="fa fa-bed"></i></a> Beds 3</span>
+                            <span><a href="#"><i class="fa fa-shower"></i></a> Baths 3</span>
+                            <span><a href="#"><i class="fa fa-maximize"></i></a> 1500 Sqft</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="discount">
+            <div class="discount-desc">
+                <div class="top">
+                    <i class="icon fa fa-quote-left fa-lg"></i>
+                    <h2 class="discount-title">Penelope Astrid</h2>
+                    <span class="discount-subtitle">(marketing)</span>
+                </div> <!-- ./top -->
+                <p>This is paragraph in template 2 showing a website using 
+                    some html css and its new versions like html5 css3
+                    This is paragraph in template 2 showing a website using 
+                    some html css and its new versions like html5 css3
+                    This is paragraph in template 2 showing a website using 
+                    some html css and its new versions like html5 css3
+                </p>
+                <div class="bullets">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </div> <!-- ./bullets -->
+                </div> <!-- ./discount-desc -->
+            <div class="discount-item">
+                <div class="discount-item-info">
+                    <h3>20% Discount</h3>
+                </div>
+            </div> <!-- ./discount-item -->
+            <div class="discount-item">
+                <div class="discount-item-info">
+                    <h3>30% Discount</h3>
+                </div>
+            </div> <!-- ./discount-item -->
+            </div>
+            <div class="view-all">
+                <a href="#">View All Porperties</a>
+            </div>
+        </div>
+    </div>
+    <!-- Categories -->
+    <div class="categories" id="categories">
+            <div class="container">
+            <div class="main-header">
+                <span>Services</span>
+                <p><i class="fa fa-circle" style="margin-right: 5px; font-size: 13px;"></i>Property Type</p>
+                <h3>Let’s Explore by Property Type</h3>
+            </div>
+            <div class=" main-content">
+                <div class="card">
+                    <div class="imge"><img src="Image/p-cat-1.svg" alt=""></div>
+                    <p>Apartments</p>
+                    <span>1 Listings</span>
+                </div>
+                <div class="card">
+                    <div class="imge"><img src="Image/p-cat-2.svg" alt=""></div>
+                    <p>Apartments</p>
+                    <span>1 Listings</span>
+                </div>
+                <div class="card">
+                    <div class="imge"><img src="Image/p-cat-3.svg" alt=""></div>
+                    <p>Apartments</p>
+                    <span>1 Listings</span>
+                </div>
+                <div class="card">
+                    <div class="imge"><img src="Image/p-cat-4.svg" alt=""></div>
+                    <p>Apartments</p>
+                    <span>1 Listings</span>
+                </div>
+                <div class="card">
+                    <div class="imge"><img src="Image/p-cat-5.svg" alt=""></div>
+                    <p>Apartments</p>
+                    <span>1 Listings</span>
+                </div>              
+            </div>
+            </div>
+        </div>
+    <!-- About -->
+    <div class="about" id="about">
+        <div class="container">
+            <div class="main-image">
+                <img src="Image/home-5-service-2.png" alt="homo">
+            </div>
+            <div class="main-content">
+                <div class="main-header">
+                    <span>About</span>
+                    <p><i class="fa fa-circle" style="margin-right: 5px; font-size: 13px;"></i>Who We Are</p>
+                    <h3>We are Offering The Best Real Estate Property For All</h3>
+                </div>
+                <p class="description">Make a type specimen book. It has survived not only five centuries,
+                    but also the leap into electronic typesetting, remaining essentially
+                    electronic typesettings pecimen book</p>
+                    <div class="info">
+                        <div class="satisfied break">
+                            <img src="Image/home-5-about-icon-1.svg" alt="Home">
+                            <div class="text-info">
+                                <span>55K</span>
+                                <div>Satisfied People</div>
+                            </div>
+                        </div>
+                        <div class="satisfied">
+                            <img src="Image/home-5-about-icon-2.svg" alt="Home">
+                            <div class="text-info">
+                                <span>11K</span>
+                                <div>Verified Property</div>
+                            </div>
+                        </div>
+                    </div>
+                    <p class="description">Make a type specimen book. It has survived not only five centuries,
+                    but also the leap into electronic typesetting, remaining essentially
+                    electronic typesettings pecimen book</p>
+                    <div class="view-all contact">
+                    <a href="#">Contact With Us</a>
+                    </div>
+                </div>
+            </div>
+    </div>
+    <!-- Location -->
+    <div class="location">
+        <div class="container">
+            <div class="main-header">
+                <span>Locations</span>
+                <p>TOP AREAS</p>
+                <h3>Find Your Neighborhood</h3>
+            </div>
+            <div class="box">
+                <div class="img-box">
+                    <div class="img">
+                        <img src="Image/home5-location-1.png" alt="Home Location">
+                    </div>
+                    <div class="img-info">
+                        <a href="#">California</a>
+                        <p><span>04 properties</span></p>
+                    </div>
+                </div>
+                <div class="img-box">
+                    <div class="img">
+                        <img src="Image/home5-location-2.png" alt="Home Location">
+                    </div>
+                    <div class="img-info">
+                        <a href="#">Louisiana</a>
+                        <p><span>01 properties</span></p>
+                    </div>
+                </div>
+                <div class="img-box">
+                    <div class="img">
+                        <img src="Image/home5-location-3.png" alt="Home Location">
+                    </div>
+                    <div class="img-info">
+                        <a href="#">Kansas</a>
+                        <p><span>02 properties</span></p>
+                    </div>
+                </div>
+                <div class="img-box">
+                    <div class="img">
+                        <img src="Image/home5-location-4.png" alt="Home Location">
+                    </div>
+                    <div class="img-info">
+                        <a href="#">Abilene</a>
+                        <p><span>02 properties</span></p>
+                    </div>
+                </div>
+                <div class="img-box big-img">
+                    <div class="img">
+                        <img src="Image/home5-location-5.png" alt="Home Location">
+                    </div>
+                    <div class="img-info">
+                        <p class="big-p">Please Select a Location and Background</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Promo -->
+    <div class="promo">
+        <div class="container">
+            <div class="popup-video">
+                <span><i class="fa fa-circle" style="margin-right: 5px; font-size: 13px;"></i>LET’S TAKE A TOUR</span>
+                <h3>Search Property Smarter,<br>Quicker & Anywhere</h3>
+                <div class="icon-box">
+                    <div class="video"><i class="fa-solid fa-play"></i></div>
+                    <span>Play Video</span>
+                </div>
+            </div>
+            <h2>Property For All</h2>
+        </div>
+    </div>
+    <!-- Services -->
+    <div class="services">
+        <div class="container">
+            <div class="text-info">
+                <h3>We’re Providing the Best Real Estate Services</h3>
+                <p>Make a type specimen book. It has survived not only five centuries, but also the leap into.</p>
+                <div class="contact-box">
+                    <div class="box">
+                        <div class="icon"></div>
+                        <div class="info">
+                            <p>Our Hot Line:</p>
+                            <p>+88 1950 555 33</p>
+                        </div>
+                    </div>
+                    <div class="box">
+                        <div class="icon"></div>
+                        <div class="info">
+                            <p>Mail Us:</p>
+                            <p>info@gmail.com</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="view-all contact">
+                    <a href="#">Contact With Us</a>
+                </div>
+            </div>
+            <div class="image">
+                <img src="Image/home-5-service-2.png" alt="Services">
+            </div>
+        </div>
+    </div>
+    <!-- Features -->
+    <div class="features">
+        <div class="container">
+            <div class="main-header">
+                <span>Features</span>
+                <p>WHY CHOOSE OUR PROPERTIES</p>
+                <h3>Become a Real Estate Agent</h3>
+            </div>
+            <div class="card">
+                <div class="img-box">
+                    <img src="Image/david_lee5-400x240.jpg" alt="">
+                    <div class="overly">
+                        <i class="fab fa-facebook-square"></i>
+                        <i class="fab fa-twitter-square"></i>
+                        <i class="fab fa-linkedin"></i>
+                        <i class="fab fa-instagram-square"></i>
+                    </div>
+                </div>
+                <div class="review">
+                    <i class="active fa fa-star fa-sm"></i>
+                    <i class="active fa fa-star fa-sm"></i>
+                    <i class="active fa fa-star fa-sm"></i>
+                    <i class="active fa fa-star fa-sm"></i>
+                    <i class="far fa-star"></i>
+                </div>
+                <div class="price">
+                    <div class="title">Product Item</div>
+                    <span>3500$</span>
+                </div>
+            </div>
+            <div class="card">
+                <div class="img-box">
+                    <img src="Image/david_lee1-400x240.jpg" alt="">
+                    <div class="overly">
+                        <i class="fab fa-facebook-square"></i>
+                        <i class="fab fa-twitter-square"></i>
+                        <i class="fab fa-linkedin"></i>
+                        <i class="fab fa-instagram-square"></i>
+                    </div>
+                </div>
+                <div class="review">
+                    <i class="active fa fa-star fa-sm"></i>
+                    <i class="active fa fa-star fa-sm"></i>
+                    <i class="active fa fa-star fa-sm"></i>
+                    <i class="active fa fa-star fa-sm"></i>
+                    <i class="far fa-star"></i>
+                </div>
+                <div class="price">
+                    <div class="title">Product Item</div>
+                    <span>19500$</span>
+                </div>
+            </div>
+            <div class="card">
+                <div class="img-box">
+                    <img src="Image/david_lee9-400x240.jpg" alt="">
+                    <div class="overly">
+                        <i class="fab fa-facebook-square"></i>
+                        <i class="fab fa-twitter-square"></i>
+                        <i class="fab fa-linkedin"></i>
+                        <i class="fab fa-instagram-square"></i>
+                    </div>
+                </div>
+                <div class="review">
+                    <i class="active fa fa-star fa-sm"></i>
+                    <i class="active fa fa-star fa-sm"></i>
+                    <i class="active fa fa-star fa-sm"></i>
+                    <i class="active fa fa-star fa-sm"></i>
+                    <i class="far fa-star"></i>
+                </div>
+                <div class="price">
+                    <div class="title">Product Item</div>
+                    <span>19905$</span>
+                </div>
+            </div>
+            <div class="card">
+                <div class="img-box">
+                    <img src="Image/mike_hussy-400x240.jpg" alt="">
+                    <div class="overly">
+                        <i class="fab fa-facebook-square"></i>
+                        <i class="fab fa-twitter-square"></i>
+                        <i class="fab fa-linkedin"></i>
+                        <i class="fab fa-instagram-square"></i>
+                    </div>
+                </div>
+                <div class="review">
+                    <i class="active fa fa-star fa-sm"></i>
+                    <i class="active fa fa-star fa-sm"></i>
+                    <i class="active fa fa-star fa-sm"></i>
+                    <i class="active fa fa-star fa-sm"></i>
+                    <i class="far fa-star"></i>
+                </div>
+                <div class="price">
+                    <div class="title">Product Item</div>
+                    <span>5500$</span>
+                </div>
+            </div>
+            <div class="card">
+                <div class="img-box">
+                    <img src="Image/9-400x240.jpg" alt="">
+                    <div class="overly">
+                        <i class="fab fa-facebook-square"></i>
+                        <i class="fab fa-twitter-square"></i>
+                        <i class="fab fa-linkedin"></i>
+                        <i class="fab fa-instagram-square"></i>
+                    </div>
+                </div>
+                <div class="review">
+                    <i class="active fa fa-star fa-sm"></i>
+                    <i class="active fa fa-star fa-sm"></i>
+                    <i class="active fa fa-star fa-sm"></i>
+                    <i class="active fa fa-star fa-sm"></i>
+                    <i class="far fa-star"></i>
+                </div>
+                <div class="price">
+                    <div class="title">
+                        Product Item
+                    </div>
+                    <span>1800$</span>
+                </div>
+            </div>
+            <div class="card">
+                <div class="img-box">
+                    <img src="Image/mike_hussy6-400x240.jpg" alt="">
+                    <div class="overly">
+                        <i class="fab fa-facebook-square"></i>
+                        <i class="fab fa-twitter-square"></i>
+                        <i class="fab fa-linkedin"></i>
+                        <i class="fab fa-instagram-square"></i>
+                    </div>
+                </div>
+                <div class="review">
+                    <i class="active fa fa-star fa-sm"></i>
+                    <i class="active fa fa-star fa-sm"></i>
+                    <i class="active fa fa-star fa-sm"></i>
+                    <i class="active fa fa-star fa-sm"></i>
+                    <i class="far fa-star"></i>
+                </div>
+                <div class="price">
+                    <div class="title">Product Item</div>
+                    <span>1250$</span>
+                </div>
+            </div>
+            <div class="clear"></div>
+        </div>
+    </div>
+    <!-- Agetns -->
+    <div class="agetns">
+        <div class="container">
+            <div class="main-header">
+                <span>Our Agetns</span>
+                <p>EXPERTISE IS HERE</p>
+                <h3>Our Exclusive Agetns</h3>
+            </div>
+            <div class="boxes">
+                <div class="box">
+                    <div class="img">
+                        <img src="Image/david_lee.jpg" alt="david lee">
+                    </div>
+                    <div class="img-info">
+                        <h4>David Lee <i class="fa-solid fa-check"></i></h4>
+                        <a href="#">Sunshine</a>
+                        <div class="listing">2 Listings</div>
+                        <div class="call">
+                            <i class="fa-solid fa-check"></i>
+                            <span>Call: +182137121886</span>
+                        </div>
+                    </div>
+                    <!-- <div class="share">
+                        <i class="fa-solid fa-share-nodes share-icon"></i>
+                    </div>
+                    <div class="social">
+                        <a href="#" style="transition-delay: 0.2s;"><i class="fa-brands fa-twitter"></i></a>
+                        <a href="#" style="transition-delay: 0.3s;"><i class="fa-brands fa-pinterest-p"></i></a>
+                        <a href="#" style="transition-delay: 0.4;"><i class="fa-brands fa-linkedin-in"></i></a>
+                        <a href="#" style="transition-delay: 0.5;"><i class="fa-brands fa-facebook-f"></i></a>
+                        <a href="#"style="transition-delay: 0.6;"><i class="fa-brands fa-youtube"></i></a>
+                    </div> -->
+                </div>
+                <div class="box">
+                    <div class="img">
+                        <img src="Image/robert_blue.jpg" alt="Robert Blue">
+                    </div>                    
+                    <div class="img-info">
+                        <h4>Robert Blue <i class="fa-solid fa-check"></i></h4>
+                        <a href="#">Sunshine</a>
+                        <div class="listing">4 Listings</div>
+                        <div class="call">
+                            <i class="fa-solid fa-check"></i>
+                            <span>Call: +442037691880</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="box">
+                    <div class="img">
+                        <img src="Image/tom_steven.jpg" alt="Tom Steven">
+                    </div>
+                    <div class="img-info">
+                        <h4>Tom Steven <i class="fa-solid fa-check"></i></h4>
+                        <a href="#">Sunshine</a>
+                        <div class="listing">2 Listings</div>
+                        <div class="call">
+                            <i class="fa-solid fa-check"></i>
+                            <span>Call: +052015698546</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="box">
+                    <div class="img">
+                        <img src="Image/mike_hussy-1.jpg" alt="Mike Hussy">
+                    </div>                       
+                    <div class="img-info">
+                        <h4>Mike Hussy <i class="fa-solid fa-check"></i></h4>
+                        <a href="#">Sunshine</a>
+                        <div class="listing">1 Listings</div>
+                        <div class="call">
+                            <i class="fa-solid fa-check"></i>
+                            <span>Call:  +442037691880</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- -Footer Start -->
+    <div class="footer">
+        <div class="container">
+            <div class="box">
+                <a href="#" class="logo">
+                <img src="Image/logo_light.svg" alt="Footer light Logo">
+                </a>       
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam</p>
+                <ul class="social">
+                    <li class="facebook"><i class="fab fa-facebook-f"></i></li>
+                    <li class="twitter"><i class="fab fa-twitter"></i>
+                    </li>                
+                    <li class="linkedin"><i class="fab fa-linkedin-in"></i>
+                    </li>                
+                    <li class="pinterest"><i class="fab fa-pinterest-p"></i>
+                    </li>                    
+                </ul>
+            </div>
+            <div class="box">
+                <ul class="links">
+                    <h3>Quick Links</h3>
+                    <li>
+                        <a href="#home">Home</a>
+                    </li>
+                    <li>
+                        <a href="#services">Services</a>
+                    </li>
+                    <li>
+                        <a href="#price">Pricing</a>
+                    </li>
+                    <li>
+                        <a href="#portfolio">Portfolio</a>
+                    </li>
+                </ul>
+            </div>
+            <div class="box">
+                <h3>Newsletter</h3>
+                <input type="email" name="email" placeholder="Enter e-mail addess">
+                <input type="submit" value="Subscribe">
+                <p>We never span you!</p>
+            </div>
+            <div class="box">
+                <ul class="links">
+                    <h3>Contact</h3>
+                    <li>
+                        <a href="#">121 King St, Melbourne den 3000, Australia</a>
+                    </li>
+                    <li>
+                        <a href="#">info@example.com</a>
+                    </li>
+                    <li>
+                        <a href="#">+123-596-000</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
